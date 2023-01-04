@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Style__c</fullName>
+    <externalId>false</externalId>
+    <label>Style</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Art Déco</fullName>
+                <default>false</default>
+                <label>Art Déco</label>
+            </value>
+            <value>
+                <fullName>Boho</fullName>
+                <default>false</default>
+                <label>Boho</label>
+            </value>
+            <value>
+                <fullName>Eklektyczny</fullName>
+                <default>false</default>
+                <label>Eklektyczny</label>
+            </value>
+            <value>
+                <fullName>Glamour</fullName>
+                <default>false</default>
+                <label>Glamour</label>
+            </value>
+            <value>
+                <fullName>Hampton</fullName>
+                <default>false</default>
+                <label>Hampton</label>
+            </value>
+            <value>
+                <fullName>Industrialny (loftowy)</fullName>
+                <default>false</default>
+                <label>Industrialny (loftowy)</label>
+            </value>
+            <value>
+                <fullName>Klasyczny</fullName>
+                <default>false</default>
+                <label>Klasyczny</label>
+            </value>
+            <value>
+                <fullName>Nowoczesny</fullName>
+                <default>false</default>
+                <label>Nowoczesny</label>
+            </value>
+            <value>
+                <fullName>Rustykalny</fullName>
+                <default>false</default>
+                <label>Rustykalny</label>
+            </value>
+            <value>
+                <fullName>Skandynawski</fullName>
+                <default>false</default>
+                <label>Skandynawski</label>
+            </value>
+            <value>
+                <fullName>Vintage</fullName>
+                <default>false</default>
+                <label>Vintage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
