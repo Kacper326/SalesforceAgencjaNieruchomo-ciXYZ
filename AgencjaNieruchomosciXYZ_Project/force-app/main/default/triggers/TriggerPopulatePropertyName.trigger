@@ -1,4 +1,4 @@
-trigger TriggerPopulatePropertyName on Property__c (before insert, before update) {
+trigger TriggerPopulatePropertyName on Property__c (after insert, after update) {
   Id PropertyRecordTypeId = Schema.SObjectType.Property__c.getRecordTypeInfosByName().get('House').getRecordTypeId();
     for (Property__c prop : Trigger.new) {
     prop.Name = null;

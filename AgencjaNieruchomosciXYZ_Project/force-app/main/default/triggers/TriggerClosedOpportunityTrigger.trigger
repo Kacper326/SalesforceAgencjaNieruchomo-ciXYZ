@@ -1,4 +1,4 @@
-trigger ClosedOpportunityTrigger on Opportunity (after insert,after update) {
+trigger TriggerClosedOpportunityTrigger on Opportunity (after insert,after update) {
     List<Task> taskToCreate = new List<Task>();
     List<Opportunity> ClosedWonOpp = [SELECT Id,Name,StageName From Opportunity Where(StageName = 'Closed Won' AND Id IN :Trigger.new)];
 
