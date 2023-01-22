@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Loss_Reason__c</fullName>
+    <fullName>Approval_Status__c</fullName>
     <externalId>false</externalId>
-    <label>Loss Reason</label>
+    <inlineHelpText>Approval Process will start at Proposal/Price Quote Stage</inlineHelpText>
+    <label>Approval Status</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Przegrana z powodu konkurencji</fullName>
-                <default>false</default>
-                <label>Przegrana z powodu konkurencji</label>
+                <fullName>Nie przesłano do potwierdzenia</fullName>
+                <default>true</default>
+                <label>Nie przesłano do potwierdzenia</label>
             </value>
             <value>
-                <fullName>brak budżetu</fullName>
+                <fullName>W procesie zatwierdzania</fullName>
                 <default>false</default>
-                <label>brak budżetu</label>
+                <label>W procesie zatwierdzania</label>
             </value>
             <value>
-                <fullName>brak decyzji</fullName>
+                <fullName>Odrzucono</fullName>
                 <default>false</default>
-                <label>brak decyzji</label>
+                <label>Odrzucono</label>
             </value>
             <value>
-                <fullName>cena</fullName>
+                <fullName>Zaakceptowano</fullName>
                 <default>false</default>
-                <label>cena</label>
-            </value>
-            <value>
-                <fullName>inne</fullName>
-                <default>false</default>
-                <label>inne</label>
+                <label>Zaakceptowano</label>
             </value>
         </valueSetDefinition>
     </valueSet>
