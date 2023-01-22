@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Compact_Layout_Office</fullName>
+    <fields>Name</fields>
+    <fields>m__c</fields>
+    <fields>Minimal_Selling_Price__c</fields>
+    <fields>Do_we_have_purchase_contract__c</fields>
+    <fields>Condition__c</fields>
+    <label>Property Compact Layout - Office</label>
+</CompactLayout>
