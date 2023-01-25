@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_m__c</fullName>
+    <description>Minimal selling price</description>
+    <externalId>false</externalId>
+    <formula>Minimal_Selling_Price__c /  m__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Obliczone na podstawie Minimalnej ceny sprzedaży</inlineHelpText>
+    <label>zł/m²</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

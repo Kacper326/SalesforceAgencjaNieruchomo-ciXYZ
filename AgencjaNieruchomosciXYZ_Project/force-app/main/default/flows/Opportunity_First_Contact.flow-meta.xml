@@ -29,7 +29,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <stringValue>janusz.zaba.nokia@gmail.com</stringValue>
+                <elementReference>$Record.Owner.Email</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -68,7 +68,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <stringValue>janusz.zaba.nokia@gmail.com</stringValue>
+                <elementReference>$Record.Owner.Email</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -144,7 +144,7 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <name>House_Welcome_Mail</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NIP_has_10_digit_and_is_a_number</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    LEN(NIP__c)  &lt;&gt;  10, 
+    NOT(REGEX(NIP__c, &quot;^[0-9]*$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>NIP__c</errorDisplayField>
+    <errorMessage>Numer NIP musi mieć dokładnie 10 liczb</errorMessage>
+</ValidationRule>
