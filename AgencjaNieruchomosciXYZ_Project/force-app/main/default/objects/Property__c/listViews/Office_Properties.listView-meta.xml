@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>All</fullName>
+    <fullName>Office_Properties</fullName>
     <columns>NAME</columns>
     <columns>m__c</columns>
     <columns>z_m__c</columns>
     <columns>Minimal_Selling_Price__c</columns>
     <filterScope>Everything</filterScope>
-    <label>All Properties</label>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Property__c.Office</value>
+    </filters>
+    <label>Office Properties</label>
 </ListView>

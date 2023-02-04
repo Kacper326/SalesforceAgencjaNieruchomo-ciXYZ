@@ -5,5 +5,9 @@
 		<members>Property__c</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>*</members>
+		<name>Flow</name>
+	</types>
 	<version>55.0</version>
 </Package>
